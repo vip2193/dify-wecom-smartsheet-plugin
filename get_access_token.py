@@ -3,8 +3,8 @@
 import requests
 
 # 配置你的企业信息
-CORPID = "xxx"  # 在"我的企业"中查看
-CORPSECRET = "xxx"  # 在"应用管理"中查看
+CORPID = "你的企业ID"  # 在"我的企业"中查看
+CORPSECRET = "WiqfTg7yk7n0w5wdzd9YaSZiAKXb6RLBTimLBg3bPpo"  # 在"应用管理"中查看
 
 def get_access_token():
     url = f"https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={CORPID}&corpsecret={CORPSECRET}"
